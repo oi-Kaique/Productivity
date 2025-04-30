@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Roboto } from "@next/font/google";
 import Menu from "@/components/communs/menu";
 import Charts from "@/components/communs/Charts";
+import PieChart from "@/components/communs/PieChart";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -204,12 +205,20 @@ const Analyst = () => {
                   </div>
                 </div>
                 <div className="p-6 sm:p-8">
-                  <Charts
-                    data={timeDistributionData}
-                    colors={COLORS}
-                    title="Distribuição de Tempo"
-                    description="Este gráfico mostra como seu tempo está distribuído entre diferentes atividades. Passe o mouse sobre cada seção para ver mais detalhes."
-                  />
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <Charts
+                      data={timeDistributionData}
+                      colors={COLORS}
+                      title="Distribuição de Tempo"
+                      description="Este gráfico mostra como seu tempo está distribuído entre diferentes atividades. Passe o mouse sobre cada seção para ver mais detalhes."
+                    />
+                    <PieChart
+                      data={timeDistributionData}
+                      colors={COLORS}
+                      title="Distribuição de Tempo (Grafico)"
+                      description="Visualização alternativa da distribuição do seu tempo em formato de pizza."
+                    />
+                  </div>
 
                   {/* Dicas por Categoria */}
                   <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
