@@ -41,6 +41,7 @@ pnpm run dev
 
 O aplicativo estará disponível em `http://localhost:3000`
 
+<<<<<<< HEAD
 ## 📂 Estrutura do Projeto
 
 ```
@@ -90,3 +91,8 @@ pnpm test:coverage
 ## 📝 Licença
 
 Este projeto está sob a licença MIT!
+=======
+## 📝 Licença
+
+Este projeto está sob a licença MIT.
+>>>>>>> 46c41461b1218c19ee9854a2147a5cce4af68f4c
