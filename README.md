@@ -41,6 +41,52 @@ pnpm run dev
 
 O aplicativo estará disponível em `http://localhost:3000`
 
+## 📂 Estrutura do Projeto
+
+```
+productivity/
+├── app/              # Páginas e rotas da aplicação
+├── components/       # Componentes reutilizáveis
+├── lib/              # Utilitários e funções auxiliares
+├── public/           # Arquivos estáticos
+├── styles/           # Estilos globais
+└── ...
+```
+
+## 🔧 Variáveis de Ambiente
+
+Crie um arquivo `.env.local` na raiz do projeto com as seguintes variáveis:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+# Adicione outras variáveis necessárias
+```
+
+## 🧪 Testes
+
+```bash
+# Executar testes
+pnpm test
+
+# Executar testes com coverage
+pnpm test:coverage
+```
+
+## 👥 Como Contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/amazing-feature`)
+3. Commit suas mudanças (`git commit -m 'Add some amazing feature'`)
+4. Push para a branch (`git push origin feature/amazing-feature`)
+5. Abra um Pull Request
+
+## 🗺️ Roadmap
+
+- [ ] Implementação de notificações
+- [ ] Integração com calendário
+- [ ] Modo escuro
+- [ ] Aplicativo móvel
+
 ## 📝 Licença
 
 Este projeto está sob a licença MIT.
