@@ -130,7 +130,7 @@ const Home = () => {
                   Hidratação
                 </h2>
               </div>
-              <p className="text-amber-700">Personalize sua experiência.</p>
+              <p className="text-amber-700">Acompanhe sua ingestão diária de água e mantenha-se hidratado.</p>
             </Link>
 
             {/* Card Settings */}
