@@ -113,6 +113,26 @@ const Home = () => {
               </p>
             </Link>
 
+              {/* Card Water */}
+            <Link
+              href="/water"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
+            >
+              <div className="flex items-center mb-4">
+                <div className="bg-amber-100 p-3 rounded-full mr-3">
+                  <img
+                    src="/water.svg"
+                    alt="water"
+                    className="h-8 w-8"
+                  />
+                </div>
+                <h2 className="text-xl font-bold text-amber-900">
+                  Hidratação
+                </h2>
+              </div>
+              <p className="text-amber-700">Personalize sua experiência.</p>
+            </Link>
+
             {/* Card Settings */}
             <Link
               href="/Settings"
@@ -133,6 +153,8 @@ const Home = () => {
               <p className="text-amber-700">Personalize sua experiência.</p>
             </Link>
           </div>
+
+          
 
           {/* Atividades Recentes */}
           <div className="mt-8">

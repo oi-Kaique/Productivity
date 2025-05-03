@@ -87,6 +87,20 @@ const Menu = () => {
 
           <div className="flex items-center p-2 text-amber-800 hover:bg-amber-200 rounded-lg">
             <img
+              src="/water.svg"
+              alt="logout"
+              className="h-6 w-6 text-amber-800"
+            />
+            <Link
+              href="/water"
+              className="flex items-center p-2 text-amber-800 hover:bg-amber-200 rounded-lg"
+            >
+              <span>water</span>
+            </Link>
+          </div>
+
+          <div className="flex items-center p-2 text-amber-800 hover:bg-amber-200 rounded-lg">
+            <img
               src="/Analyst.svg"
               alt="Analyst"
               className="h-6 w-6 text-amber-800"
